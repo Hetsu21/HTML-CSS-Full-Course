@@ -1,15 +1,19 @@
 <!-- CSS Code -->
 <style>
   .Old-Subscibe-button{
-    background-color: rgb(200, 0, 0);
+    background-color: rgb(204, 0, 0);
     color: white;
     border: none;
-    height: 36px;
-    width: 105px;
     border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
+    margin-left:20px;
+    padding-left:16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right:16;
     transition: opacity 0.15s;
+    vertical-align: top;
   }
 
   .Old-Subscibe-button:hover{
@@ -22,20 +26,24 @@
 
   .join-button{
     background-color: white;
-    border-color: rgb(44, 118, 211);
+    color:  rgb(29, 155, 240);
     border-style: solid;
     border-width: 1px;
-    color: rgb(44, 118, 211) ;
-    height: 36px;
-    width: 62px;
+    border: 1px solid rgb(6, 95, 212);
     border-radius: 2px;
     cursor: pointer;
-    transition:background-color 1s,
-    color 1s;
+    padding-left:16px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right:16px;
+    vertical-align: top;
+
+    transition:background-color 0.15s,
+    color 0.15s;
   }
 
   .join-button:hover{
-    background-color: rgb(44, 118, 211) ;
+    background-color: rgb(6, 95, 212);
     color: white;
   }
 
@@ -44,7 +52,7 @@
   }
 
 
-  .tweet-button{
+  .post-button{
     background-color: rgb(2, 158, 255);
     color: white;
     border: none;
@@ -55,7 +63,15 @@
     font-size: 15px;
     cursor: pointer;
     margin-left: 8px;
+    vertical-align: top;
+    transition:box-shadow 0.15s;
+    
   }
+  
+  .post-button:hover{
+    box-shadow:5px 5px 10px rgba(0,0,0,15);
+  }
+
 </style>
 
 
@@ -72,8 +88,8 @@
 </button>
 
 <!-- twitter Button HTML-->
-<button class="tweet-button">
-  Tweet
+<button class="post-button">
+  Post
 </button>
 
 <!-- 
